@@ -1,0 +1,15 @@
+.cu-card img{
+    height: 300px;
+}
+.cu-card:hover{
+box-shadow: 3px 3px 3px grey,-3px -3px 3px grey;
+}
+.ullist li{
+    list-style: none;
+}
+.listitem{
+    padding: 2px;
+}
+.listitem:hover{
+    border-bottom: 2px solid rgb(5, 5, 5);
+}

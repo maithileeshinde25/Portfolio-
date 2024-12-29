@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body >
+   
+    <div class="container mt-3">
+      <div class="d-flex">
+        <div class="display-4 fw-normal">Contact</div>
+        <div class="w-50 mt-4 ms-5 hrcu"></div>
+      </div>
+     
+
+      <div class="d-flex mt-4">
+        <div class="w-50 bg-danger bg-opacity-10 p-4 rounded-4 m-3">
+          <div><i class="fa-solid fa-phone-volume grad fs-3"></i> <span class="fs-3 ms-2"> Phone:<span></div>
+          <p class="ms-4"><span >+9588689586<br>+9529454940</span></p>
+          
+         
+
+        </div>
+
+
+        <div class="w-50 bg-primary bg-opacity-10 p-4 rounded-4 m-3">
+          <div><i class="fa-solid fa-envelope-circle-check grad fs-3"></i></i> <span class="fs-3 ms-2"> Email:<span></div>
+          <p class="ms-4"><span >@maithileeshinde25@gmail.com</span></p>
+          
+         
+
+        </div>
+
+      </div>
+
+
+
+        <div class="w-100 ">
+          <div class=" bg-secondary bg-opacity-10 m-3  p-3 rounded-4">
+          <p>I am always open to discussing<b> new project,opportunity in tech world,partnership</b> and more so<b> mentorship</b>.</p>
+        <!-- <input type="text" class="border-0 border-bottom border-black w-100 fw-bold " placeholder="Name"  >
+        
+        <input type="text" class="border-0 border-bottom border-black w-100 fw-bold " placeholder="Name"  >
+         -->
+         <label class="fw-bold ">Name:</label>
+         <input type="text"  id="name"class="border-0 border-bottom border-black w-100 fw-bold "    >
+
+         <label class="fw-bold ">Email:</label>
+        <input type="text" class="border-0 border-bottom border-black w-100 fw-bold bg" id="email"  >
+
+        <label class="fw-bold ">Message:</label>
+        <input type="text" class="border-0 border-bottom border-black w-100 fw-bold bg" id="msg"  >
+
+
+        <button class="mt-4 border-danger rounded-4 ps-3 pe-3 " onclick="cleardata()">Submit</button>
+        </div>
+    
+        <script>
+
+        function cleardata(){
+
+          console.log("hello");
+          
+        document.querySelector("#name").value=""
+        document.getElementById('email').value=""
+        document.getElementById('msg').value= ""
+        
+          }
+         </script>
+ 
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      
+ 
+  </body>
+</html>
